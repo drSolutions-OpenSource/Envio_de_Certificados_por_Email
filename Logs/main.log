@@ -1,0 +1,85 @@
+[27/12/23 11:24:44.403] [main] INFO  (Main.java:35) Iniciar o sistema
+[27/12/23 11:24:44.409] [main] WARN  (Main.java:42) Diretório ArquivosCSVVVVS criado
+[27/12/23 11:24:44.410] [main] INFO  (Main.java:64) Limpar os certificados anteriores
+[27/12/23 11:24:44.429] [main] INFO  (Main.java:73) Gerar os alunos fictícios e salvar em um arquivo CVS
+[27/12/23 11:24:44.537] [main] INFO  (GerarAlunos.java:41) Gerar o arquivo CSV: ArquivosCSVVVVS/alunos.csv
+[27/12/23 11:24:44.539] [main] INFO  (UtilizarArquivoCSV.java:44) Arquivo CSV criado: ArquivosCSVVVVS/alunos.csv
+[27/12/23 11:24:44.539] [main] INFO  (Main.java:80) Ler os alunos do arquivo CSV
+[27/12/23 11:24:44.541] [main] INFO  (UtilizarArquivoCSV.java:71) Arquivo CSV lido: ArquivosCSVVVVS/alunos.csv
+[27/12/23 11:24:44.543] [main] INFO  (Main.java:82) Arquivo CSV lido
+[27/12/23 11:24:44.543] [main] INFO  (Main.java:87) Gerar os certificados dos alunos no formato PDF
+[27/12/23 11:24:44.679] [main] INFO  (GerarCertificado.java:89) Certificado gerado: Hélio Cardoso - 591.***.026-21
+[27/12/23 11:24:44.685] [main] INFO  (GerarCertificado.java:89) Certificado gerado: André Duarte - 440.***.460-33
+[27/12/23 11:24:44.690] [main] INFO  (GerarCertificado.java:89) Certificado gerado: Roberta Ramires - 336.***.313-09
+[27/12/23 11:24:44.696] [main] INFO  (GerarCertificado.java:89) Certificado gerado: Washington Gabeira - 329.***.498-30
+[27/12/23 11:24:44.703] [main] INFO  (GerarCertificado.java:89) Certificado gerado: Ana Cecília Paes - 457.***.481-10
+[27/12/23 11:24:44.710] [main] INFO  (GerarCertificado.java:89) Certificado gerado: Sílvia da Aldeia - 519.***.585-81
+[27/12/23 11:24:44.717] [main] INFO  (GerarCertificado.java:89) Certificado gerado: Patricia Marques - 059.***.401-10
+[27/12/23 11:24:44.723] [main] INFO  (GerarCertificado.java:89) Certificado gerado: Augusto Muniz Neto - 891.***.491-94
+[27/12/23 11:24:44.729] [main] INFO  (GerarCertificado.java:89) Certificado gerado: Rafaela Meira - 182.***.306-72
+[27/12/23 11:24:44.734] [main] INFO  (GerarCertificado.java:89) Certificado gerado: Ana Beatriz Nascimento - 436.***.687-29
+[27/12/23 11:24:44.735] [main] INFO  (Main.java:97) [Main] Enviar os e-mails para os alunos
+[27/12/23 11:24:44.739] [main] INFO  (EnviarEmail.java:41) Realizar autenticação com o servidor SMTP
+[27/12/23 11:24:44.744] [main] INFO  (EnviarEmail.java:72) Enviar e-mail para o aluno
+[27/12/23 11:24:51.792] [main] ERROR (EnviarEmail.java:147) Falhar ao enviar o e-mail: Couldn't connect to host, port: localhost, 1025; timeout -1
+[27/12/23 11:24:51.792] [main] INFO  (EnviarEmail.java:72) Enviar e-mail para o aluno
+[27/12/23 11:24:58.799] [main] ERROR (EnviarEmail.java:147) Falhar ao enviar o e-mail: Couldn't connect to host, port: localhost, 1025; timeout -1
+[27/12/23 11:24:58.799] [main] INFO  (EnviarEmail.java:72) Enviar e-mail para o aluno
+[27/12/23 11:25:05.790] [main] ERROR (EnviarEmail.java:147) Falhar ao enviar o e-mail: Couldn't connect to host, port: localhost, 1025; timeout -1
+[27/12/23 11:25:05.790] [main] INFO  (EnviarEmail.java:72) Enviar e-mail para o aluno
+[27/12/23 11:25:12.785] [main] ERROR (EnviarEmail.java:147) Falhar ao enviar o e-mail: Couldn't connect to host, port: localhost, 1025; timeout -1
+[27/12/23 11:25:12.785] [main] INFO  (EnviarEmail.java:72) Enviar e-mail para o aluno
+[27/12/23 11:25:19.790] [main] ERROR (EnviarEmail.java:147) Falhar ao enviar o e-mail: Couldn't connect to host, port: localhost, 1025; timeout -1
+[27/12/23 11:25:19.790] [main] INFO  (EnviarEmail.java:72) Enviar e-mail para o aluno
+[27/12/23 11:25:26.782] [main] ERROR (EnviarEmail.java:147) Falhar ao enviar o e-mail: Couldn't connect to host, port: localhost, 1025; timeout -1
+[27/12/23 11:25:26.782] [main] INFO  (EnviarEmail.java:72) Enviar e-mail para o aluno
+[27/12/23 11:25:33.771] [main] ERROR (EnviarEmail.java:147) Falhar ao enviar o e-mail: Couldn't connect to host, port: localhost, 1025; timeout -1
+[27/12/23 11:25:33.771] [main] INFO  (EnviarEmail.java:72) Enviar e-mail para o aluno
+[27/12/23 11:25:40.758] [main] ERROR (EnviarEmail.java:147) Falhar ao enviar o e-mail: Couldn't connect to host, port: localhost, 1025; timeout -1
+[27/12/23 11:25:40.758] [main] INFO  (EnviarEmail.java:72) Enviar e-mail para o aluno
+[27/12/23 11:25:47.743] [main] ERROR (EnviarEmail.java:147) Falhar ao enviar o e-mail: Couldn't connect to host, port: localhost, 1025; timeout -1
+[27/12/23 11:25:47.743] [main] INFO  (EnviarEmail.java:72) Enviar e-mail para o aluno
+[27/12/23 11:25:54.748] [main] ERROR (EnviarEmail.java:147) Falhar ao enviar o e-mail: Couldn't connect to host, port: localhost, 1025; timeout -1
+[27/12/23 11:25:54.748] [main] INFO  (Main.java:120) [Main] Encerrar o sistema
+[27/12/23 11:28:23.397] [main] INFO  (Main.java:35) Iniciar o sistema
+[27/12/23 11:28:23.400] [main] INFO  (Main.java:64) Limpar os certificados anteriores
+[27/12/23 11:28:23.420] [main] INFO  (Main.java:73) Gerar os alunos fictícios e salvar em um arquivo CVS
+[27/12/23 11:28:23.529] [main] INFO  (GerarAlunos.java:41) Gerar o arquivo CSV: ArquivosCSV/alunos.csv
+[27/12/23 11:28:23.531] [main] INFO  (UtilizarArquivoCSV.java:44) Arquivo CSV criado: ArquivosCSV/alunos.csv
+[27/12/23 11:28:23.532] [main] INFO  (Main.java:80) Ler os alunos do arquivo CSV
+[27/12/23 11:28:23.534] [main] INFO  (UtilizarArquivoCSV.java:71) Arquivo CSV lido: ArquivosCSV/alunos.csv
+[27/12/23 11:28:23.534] [main] INFO  (Main.java:82) Arquivo CSV lido
+[27/12/23 11:28:23.534] [main] INFO  (Main.java:87) Gerar os certificados dos alunos no formato PDF
+[27/12/23 11:28:23.673] [main] INFO  (GerarCertificado.java:89) Certificado gerado: Isabela Macieira - 222.***.384-83
+[27/12/23 11:28:23.678] [main] INFO  (GerarCertificado.java:89) Certificado gerado: César Datena - 429.***.155-96
+[27/12/23 11:28:23.684] [main] INFO  (GerarCertificado.java:89) Certificado gerado: Emanuel Grotas - 002.***.281-28
+[27/12/23 11:28:23.689] [main] INFO  (GerarCertificado.java:89) Certificado gerado: Dr. Silas do Prado - 246.***.062-72
+[27/12/23 11:28:23.695] [main] INFO  (GerarCertificado.java:89) Certificado gerado: Samuel da Maia - 287.***.797-15
+[27/12/23 11:28:23.701] [main] INFO  (GerarCertificado.java:89) Certificado gerado: Maya Brites - 307.***.887-93
+[27/12/23 11:28:23.707] [main] INFO  (GerarCertificado.java:89) Certificado gerado: Sr. Júlio Esteves - 400.***.410-03
+[27/12/23 11:28:23.714] [main] INFO  (GerarCertificado.java:89) Certificado gerado: Davi Luiz Lima - 252.***.852-47
+[27/12/23 11:28:23.720] [main] INFO  (GerarCertificado.java:89) Certificado gerado: Gustavo Madeira Filho - 388.***.744-40
+[27/12/23 11:28:23.725] [main] INFO  (GerarCertificado.java:89) Certificado gerado: Davi Luiz de Borba Neto - 813.***.570-98
+[27/12/23 11:28:23.726] [main] INFO  (Main.java:97) Enviar os e-mails para os alunos
+[27/12/23 11:28:23.731] [main] INFO  (EnviarEmail.java:41) Realizar autenticação com o servidor SMTP
+[27/12/23 11:28:23.737] [main] INFO  (EnviarEmail.java:72) Enviar e-mail para o aluno
+[27/12/23 11:28:29.786] [main] INFO  (EnviarEmail.java:138) E-mail enviado: macieira@fakemail.io
+[27/12/23 11:28:29.786] [main] INFO  (EnviarEmail.java:72) Enviar e-mail para o aluno
+[27/12/23 11:28:35.600] [main] INFO  (EnviarEmail.java:138) E-mail enviado: datena@fakemail.io
+[27/12/23 11:28:35.600] [main] INFO  (EnviarEmail.java:72) Enviar e-mail para o aluno
+[27/12/23 11:28:41.344] [main] INFO  (EnviarEmail.java:138) E-mail enviado: grotas@fakemail.io
+[27/12/23 11:28:41.344] [main] INFO  (EnviarEmail.java:72) Enviar e-mail para o aluno
+[27/12/23 11:28:47.078] [main] INFO  (EnviarEmail.java:138) E-mail enviado: prado@fakemail.io
+[27/12/23 11:28:47.078] [main] INFO  (EnviarEmail.java:72) Enviar e-mail para o aluno
+[27/12/23 11:28:52.780] [main] INFO  (EnviarEmail.java:138) E-mail enviado: maia@fakemail.io
+[27/12/23 11:28:52.781] [main] INFO  (EnviarEmail.java:72) Enviar e-mail para o aluno
+[27/12/23 11:28:58.453] [main] INFO  (EnviarEmail.java:138) E-mail enviado: brites@fakemail.io
+[27/12/23 11:28:58.453] [main] INFO  (EnviarEmail.java:72) Enviar e-mail para o aluno
+[27/12/23 11:29:04.119] [main] INFO  (EnviarEmail.java:138) E-mail enviado: esteves@fakemail.io
+[27/12/23 11:29:04.119] [main] INFO  (EnviarEmail.java:72) Enviar e-mail para o aluno
+[27/12/23 11:29:09.766] [main] INFO  (EnviarEmail.java:138) E-mail enviado: lima@fakemail.io
+[27/12/23 11:29:09.767] [main] INFO  (EnviarEmail.java:72) Enviar e-mail para o aluno
+[27/12/23 11:29:15.382] [main] INFO  (EnviarEmail.java:138) E-mail enviado: filho@fakemail.io
+[27/12/23 11:29:15.382] [main] INFO  (EnviarEmail.java:72) Enviar e-mail para o aluno
+[27/12/23 11:29:21.008] [main] INFO  (EnviarEmail.java:138) E-mail enviado: neto@fakemail.io
+[27/12/23 11:29:21.008] [main] INFO  (Main.java:120) Encerrar o sistema
